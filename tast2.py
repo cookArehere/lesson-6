@@ -1,4 +1,3 @@
-
 """
 Task 2
 
@@ -36,16 +35,13 @@ if __name__ == '__main__':
     }
 
 
-
     def sum(stock, prices):
 
         e = 0
 
         for i in stock.keys():
-           e += stock[i] * prices[i]
-        return(e)
+            e += stock[i] * prices[i]
+        return (e)
+
 
     print(sum(stock, prices))
-
-
-
